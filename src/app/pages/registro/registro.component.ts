@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 
 import { UsuarioModel } from '../../models/usuario.model';
-import { AuthService } from '../../serices/auth.service';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-registro',
